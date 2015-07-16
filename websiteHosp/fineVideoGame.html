@@ -2,45 +2,55 @@
 <html>
 <head>
 
-	<title>Portfolio</title>
+	<title>The Fine Video Game of Nil</title>
 
 	<link rel="stylesheet" type="text/css" href="./styles.css" />
 	<meta name="author" content="Michael Hosp">
 	<meta http-equiv="refresh" content = "25">
+	<script src="jquery.js"></script>
 
 </head>
 <body>
 	<div id="header">
-		</hr>
-		<p>
-			|
-			<a href = "mainPage.html"> Home </a>
-			|
-			<a href = "aboutMe.html"> About Me </a>
-			|
-			<a href = "portfolio.pdf"> Portfolio Download </a>
-			|
-			<a> Portfolio </a>
-			
-		</p>
-		</hr>
+		<h1>The Fine (Video) Game of Nil</h1>
 	</div>
 	
-	<h1><a name="FGon"></a>The Fine (Video) Game of Nil</h1>
-	<p>Based around the game <i>The Fine Game of Nil</i>, prepare to dive into a world of action and adventure. Choose one of eleven races and </p>
-	</br>
-	<h3>Downloads</h3>
-	<p>NOTE: These games are HIGHLY WIP. Bugs run rampant here.</p>
-	<ul>
-	<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.1</a></li>
-	<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.2</a></li>
-	<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.3</a></li>
-	<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.4</a></li>
-	<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.5</a></li>
-	</ul>
-	</hr>
-	</hr>
-	<h3>Changelog:</h3>
+	<div id="nav">
+		<p><a href = "mainPage.html"> Home </a></p>
+		
+		<p><a href = "aboutMe.html"> About Me </a></p>
+		
+		<p><a href = "portfolio.pdf"> Portfolio Download </a></p>
+		
+		<p><a href = "portfolio.html"> Portfolio </a></p>
+	</div>
 	
-	
+	<div id="section">
+		</br>
+		<p>Based around the game <i>The Fine Game of Nil</i>, prepare to dive into a world of action and adventure. Choose one of eleven races and 9 starter classes and begin your adventure. Set in a slightly modern 1920's, fight, talk, and explore your way though different worlds and 10 different story-lines along with hundreds of quests. Will you be a kind hero or an cruel warlord? The choice is in your hands.</p>
+		</br>
+		<h3>Downloads</h3>
+		<p>NOTE: These games are HIGHLY WIP. Bugs run rampant here.</p>
+		<ul>
+		<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.1</a></li>
+		<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.2</a></li>
+		<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.3</a></li>
+		<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.4</a></li>
+		<li><a href="">Fine (Video) Game of Nil Version Alpha 0.0.5</a></li>
+		</ul>
+		</hr>
+		</hr>
+		<span id="spoiler">
+			<span class="spoiler-label" onclick="var content = this.parentElement.getElementsByClassName('spoiler-content')[0]; if(content.style.display === 'block') { content.style.display = 'none'; } else { content.style.display = 'block'; }" onmouseover="this.style.backgroundColor='#8e8e8e';" onmouseout="this.style.backgroundColor='';"><a href="#" onclick="return false;"><strong>[Changelog]</strong></a></span>
+			<div class="spoiler-content" style="display: none; border-width: 1px; max-width: 99%; overflow-x: scroll; border-style: dotted; padding: 3px; margin-left: 5px; margin-top: 5px; background-color:8e8e8e;"><br>
+				
+				<h6>
+				0.0.1
+				<h6>
+				<p>
+				
+				</p>
+			</div>
+		</span>
+	</div>
 </body>
